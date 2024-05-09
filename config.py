@@ -14,22 +14,22 @@ from logging.handlers import RotatingFileHandler
 
 
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5088657122:AAELk-O6R8rYxzqXNvWWRhtl2O0-FNLwHS0")
+APP_ID = int(os.environ.get("APP_ID", "3335796"))
+API_HASH = os.environ.get("API_HASH", "138b992a0e672e8346d8439c3f42ea78")
 
 
-OWNER = os.environ.get("OWNER", "") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "")) #Owner user id
-DB_URL = os.environ.get("DB_URL", "")
+OWNER = os.environ.get("OWNER", "haaaaarki") #Owner username
+OWNER_ID = int(os.environ.get("OWNER_ID", "763990585")) #Owner user id
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://abirhasan2005:abirhasan@cluster0.i6qzp.mongodb.net/cluster0?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001792962793"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 
-SECONDS = int(os.getenv("SECONDS", "600")) # auto delete in seconds
+SECONDS = int(os.getenv("SECONDS", "20")) # auto delete in seconds
 
 
 
